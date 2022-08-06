@@ -1,0 +1,12 @@
+Tags de layout
+
+SEO - search engine optimization 
+
+div - tag generica
+nav - tag menus de navegaçao
+header - tag cabeçalho
+aside - tag barra lateral
+main - tag de conteudo principal
+article - tag conteudo
+section - tag seçao generica
+footer - tag rodapé 
