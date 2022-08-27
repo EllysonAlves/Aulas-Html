@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aula 8</title>
+	<style type="text/css">
+		
+	a{
+		text-decoration: none;
+		font-family: verdana;
+		color: gray;		
+
+	}
+	ul{
+		list-style: none;
+
+	}
+
+	li{
+		background-color: powderblue;
+		width: 120px;
+		margin-top: 2px;
+		padding: 20px;
+		border-left: 5px solid blue;
+
+	}
+	li:hover{
+		border-left: 15px solid blue;
+		transition-delay: 200ms;
+		
+	}
+
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li> <a href="#">Inicial</a> </li>
+			<li> <a href="#">Quem somos</a> </li>
+			<li> <a href="#">Serviços</a> </li>
+			<li> <a href="#">Contato</a> </li>
+		</ul>
+	</nav>
+</body>
+</html>

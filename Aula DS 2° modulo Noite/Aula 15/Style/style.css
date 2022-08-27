@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+}
+.nav{
+    background-color: white;
+    height: 60px;
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 20px;
+}
+
+.grupo{
+    display: flex;
+    list-style: none;
+}
+.grupo-i{
+    margin-right: 30px;
+}
+
+.link:hover{
+    color: #c3333b;
+}
+.link{
+  font-family: verdana;  
+  text-decoration: none;  
+  color: black;
+}
+.img-main{
+    position: absolute;
+    display: flex ;
+    margin-left: 100px;
+    margin-left: 150px;
+    
+}
+.img-main img{
+    border-radius: 100%;
+    width: 500px;
+    margin-top: 100px;
+
+}
+
+.bola{
+    margin-top: 50px;
+    margin-left: 40px;
+    background-color: #c3333b;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.bola-menor{
+    position: relative;
+    border-radius: 100%;
+    border: solid 13px #F4A8AC;
+    width: 50px;
+    height: 50px;
+    top: 100px;
+    left: 170px;
+    
+    
+}
+.conteudo{
+    width: 250px;
+    height: 300px;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+main{
+    height: 900px;
+    display: flex;
+
+}
+.gp-conteudo{
+    position: relative;
+    display: flex;
+    height: 400px;
+    top: 450px;
+    left: 200px;
+}
+.conteudo h1{
+    color: white;
+    font-size: 17px;
+    padding: 20px;
+    text-align: center;
+
+}
+.conteudo p{
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    
+}
+.conteudo a{
+    margin-left: 100px;
+    border-radius: 100%;
+    display: block;
+    background-color: #F6C3C5;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+.cor1{
+    background-color: #c3333b;
+}
+.cor2{
+    background-color: #f57f85;
+}
+.cor3{
+    background-color: #F4A8AC;
+}
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    text-align: center;
+    
+}
+footer p{
+    text-align: center;
+    padding: 50px;
+    font-size: 10px;
+    color: white;
+}

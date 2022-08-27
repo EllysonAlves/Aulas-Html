@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    background-color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 20px;
+}
+
+.grupo{
+    display: flex;
+    list-style: none;
+
+}
+.grupo-i{
+    padding: 10px;
+
+}
+.grupo-i:hover{
+    background-color: red;
+    border-radius: 10px;
+}
+.link{
+  text-decoration: none;  
+  color: black;
+}
+.main{
+    background: url(../foto.jpg);
+    position: relative;
+    width: 100%;
+    height: 800px;
+    padding-top: 50px;
+    
+    
+}
+.conteudo{
+    background-color: red;
+    margin-left: 20px;
+    border-radius: 10px;
+    height: 500px;
+    width: 300px;
+    padding: 20px;
+}
+h1{
+    color: white;
+    font-family: verdana;
+    font-size: 60px;
+}
+p{
+    color: white;
+    margin-top: 40px;
+}
+.botao{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: red;
+    display: block;
+}
+.botao:hover{
+    background-color: red;
+    color: black;
+    border: solid 3px black;
+}

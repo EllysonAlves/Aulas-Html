@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Atividade</title>
+    <style>
+        .grid{
+            display: grid;
+            gap: 10px;
+        }
+        .cabecalho{
+            display: grid;
+            grid-column: 1/span 12;
+            height: 100px;
+            gap: 10px;
+            grid-template-columns: auto auto;
+            background-color: white;
+        }
+        .cab-item{
+            background-color: orange;
+            height: 100px;
+        }    
+        .nav{
+            display: grid;
+            grid-column: 1/span 12;
+            background-color: orange;
+            height: 60px;
+        }
+        .noticia{
+            display: grid;
+            grid-column: 1/span 12;
+            height: 200px;
+            grid-template-columns: auto auto auto;
+            gap: 10px;
+            background-color: white;
+        }
+        .noticia-item{
+            background-color: orange;
+            height: 200px;
+
+        }
+        .main{
+            display: grid;
+            grid-column: 1/span 12;
+            background-color: orange;
+            height: 250px;
+        }
+        .rodape{
+            display: grid;
+            grid-column: 1/span 12;
+            grid-template-columns: auto auto;
+            gap: 10px;
+            height: 200px;
+        }
+        .rodape-item{
+            background-color: orange;
+            height: 200px;
+        }
+    
+            
+        
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="cabecalho">
+            <div class="cab-item"></div>
+            <div class="cab-item"></div>
+        </div>
+        <div class="nav">
+            <div class="nav-item"></div>
+        </div>
+        <div class="noticia">
+            <div class="noticia-item"></div>
+            <div class="noticia-item"></div>
+            <div class="noticia-item"></div>
+        </div>
+        <div class="main">
+            <div class="main-item"></div>
+        </div>
+        <div class="rodape">
+            <div class="rodape-item"></div>
+            <div class="rodape-item"></div>
+        </div>
+    </div>
+</body>
+</html>
